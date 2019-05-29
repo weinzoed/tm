@@ -1,0 +1,14 @@
+/* Add your own CSS rules here */
+#description {
+  margin: 0 0 1em 0;
+}
+
+tei-teiHeader {
+  display: none;
+}
+
+tei-head {
+  color: red;
+  text-align: center;
+  border: 1px solid blue;
+  }
