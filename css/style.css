@@ -8,7 +8,34 @@ tei-teiHeader {
 }
 
 tei-head {
-  color: red;
+  color: black;
   text-align: center;
   border: 1px solid blue;
   }
+
+
+  tei-dateline {
+    color: black;
+
+    font-weight: bold
+    }
+
+    tei-p {
+      color: green;
+      text-align: center;
+            }
+
+    tei-hi {
+      font-style: italic;
+
+              }
+tei-hi[rend="superscript"]{
+  vertical-align: super;
+color: grey;
+}
+
+tei-postscript tei-p {
+  font-style: normal;
+color: black;
+
+          }
